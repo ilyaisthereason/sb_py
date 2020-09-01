@@ -1,0 +1,9 @@
+a = input("цифра 1\n")
+b = input("цифра 2\n")
+c = input("цифра 3\n")
+if (a != b) and (b != c) and (a != c):
+    print("0")
+elif a == b == c:
+    print("3")
+else:
+    print("2")
